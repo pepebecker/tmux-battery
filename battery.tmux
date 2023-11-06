@@ -59,4 +59,9 @@ main() {
 	update_tmux_option "status-right"
 	update_tmux_option "status-left"
 }
-main
+main &
+sleep 0.2 && main &
+sleep 0.4 && main &
+sleep 0.6 && main &
+sleep 0.8 && main &
+sleep 1.0 && main &
